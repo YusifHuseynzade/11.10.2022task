@@ -1,0 +1,78 @@
+@mixin btn-bg-clr-brdr {
+    background-color: white !important;
+    color: #D01498 !important;
+    border: 1px solid #D01498;
+}
+
+.explore {
+    background-color: rgb(244, 243, 243);
+    padding-top: 5rem;
+
+    .btn-mrg {
+        margin-bottom: 25px;
+        margin-left: 56%;
+       @include btn-bg-clr-brdr();
+        font-weight: 500;
+    }
+    .btn-mrg2 {
+        margin-bottom: 25px;
+        @include btn-bg-clr-brdr();
+        font-weight: 500;
+    }
+    .card {
+        border-radius: 0 !important;
+        width: 100% !important;
+        img {
+            border-radius: 0 !important;
+            margin: auto !important;
+            width: 85%;
+        }
+    }
+    .card-body {
+       a {  
+            border-bottom: 1px solid rgb(199, 199, 199);
+            text-decoration: none;
+            color: #404040;
+            font-weight: bold;
+        }
+    }
+    .text-gray2 {
+        color: rgb(96, 95, 95);
+        font-size: 16px;
+    }
+    .span-bold {
+        font-weight: bold;
+    }
+    .card-body p, i {
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            color: $hovercolor2;
+        }
+    }
+    .btn-color1 {
+        background: $primarybtn;
+        overflow: hidden;
+        background-size: 200%;
+        padding: 10px 15px;
+        background-position: left;
+        transition: 0.5s;
+        border: none;
+       &:hover {
+            background-position: right;
+       }
+    }
+    .btn-hvr-crft {
+        top:30%;
+        margin-top: 115px;
+        bottom: 0;
+        left: 22%;
+        right: 0;
+        transition: 0.4s;
+        opacity: 0;
+        &:hover {
+            margin-top: 0;
+            opacity: 1;
+        }
+    }
+}

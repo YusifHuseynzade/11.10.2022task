@@ -1,0 +1,19 @@
+.section-4 {
+  background-image: url(/assets/images/Main-slider_pattern.jpg);
+  height: 65vh;
+}
+.section-4 .icon-2 {
+  margin-top: 5rem;
+  font-size: 25px;
+  background-color: #D01498;
+  border-radius: 100%;
+  padding: 15px 15px;
+  transition: 0.75s;
+}
+.section-4 .icon-2:hover {
+  -webkit-margin-start: 15px;
+          margin-inline-start: 15px;
+}
+.section-4 .text-gray {
+  color: rgb(168, 168, 168);
+}/*# sourceMappingURL=section4.css.map */

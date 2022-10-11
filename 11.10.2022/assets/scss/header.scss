@@ -1,0 +1,144 @@
+.header {
+    background-image: url(/assets/images/Main-slider_pattern.jpg);
+    height: 170vh;
+    background-repeat: no-repeat;
+    .a-1 {
+        color: gray;
+        transition: 0.3s;
+    }
+    .a-1:hover {
+        color: rgb(64, 64, 64);
+    }
+    .nav-bttm {
+        border-bottom: 1px solid white;
+    }
+    .btn-color {
+        background: $primarybtn;
+        overflow: hidden;
+        background-size: 200%;
+        background-position: left;
+        transition: 0.5s;
+        border: none;
+        padding: 12.5px 30px;
+       &:hover {
+            background-position: right;
+       }
+    }
+   
+    .icon-clr {
+        color: #3074f6;
+        transition: 0.3s;
+        &:hover {
+            color: $hovercolor !important; 
+        }
+    }
+    a {
+        transition: 0.3s !important;
+        &:hover {
+            color: $hovercolor !important; 
+        }
+    }
+    .img-1 {
+        margin-top: 5rem;
+        width: 100%;
+    }
+    .h1-1 {
+        background: $secondbtn;
+        -webkit-background-clip: text!important;
+        -webkit-text-fill-color: transparent;
+    }
+    .fsz-1 {
+        font-size: 60px;
+    }
+    .text-gray {
+        color: rgb(168, 168, 168);
+        font-size: 18px;
+    }
+    .m-top {
+        margin-top: 7rem;
+    }
+    .font-wght {
+        font-weight: 500;
+    }
+    .img-bottom {
+        background-color: #1a1a1a;
+        height: 100px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom: 2px solid #D01498;
+    }
+    .span-left {
+        margin-top: 50px;
+       margin-left: 10px;
+       
+    }
+    .span-right {
+        margin-top: 100px;
+       margin-left: 100px;
+       background-color: black;
+       padding: 3px 6px;
+       border-radius: 7px;
+       border: 0.25px solid gray;
+    }
+    .span-right2 {
+        margin-top: 100px;
+       margin-left: 80px;
+       background-color: black;
+       padding: 3px 6px;
+       border-radius: 7px;
+       border: 0.25px solid gray;
+    }
+    span {
+        transition: 0.3s !important;
+        &:hover {
+            color: white !important;
+        }
+    }
+    .img-hvr {
+        transition: 0.25s;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+            background-color: black;
+        }
+    }
+    .absolute {
+        position: absolute;
+        border: 5px solid black;
+        border-radius: 100%;
+        width: 17%;
+        bottom: 0;
+        top: 50%;
+        left:35%;
+    }
+    
+        .telegram {
+            margin-bottom: 45px;
+            bottom: 50px;
+            border-radius: 6px;
+            background: $secondbtn;
+            height: 37px;
+            font-size: 20px;
+            position: fixed;
+            line-height: 35px;
+            right: 40px;
+            text-align: center;
+            z-index: 9;
+            width: 40px;
+        }
+        .message {
+            margin-bottom: 25px;
+            bottom: 0px;
+            border-radius: 6px;
+            background: $secondbtn;
+            height: 60px;
+            font-size: 20px;
+            position: fixed;
+            border-radius: 100%;
+            line-height: 60px;
+            right: 20px;
+            text-align: center;
+            z-index: 9;
+            width: 60px;
+        }
+}
